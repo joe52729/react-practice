@@ -2,28 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// class Square extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             value: null,
-//         };
-//     }
+//function() {}, 可縮寫為arrow function,  () =>
 
-//     render() {
-//     //接受來自Board的參數
-//     //function() {}, 可縮寫為arrow function,  () =>
-//       return (
-//         <button 
-//             className="square" 
-//             onClick={() => this.setState({value: 'X'})}
-//         >
-//           {this.state.value}
-//         </button>
-//       );
-//     }
-//   }
-  
 function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
